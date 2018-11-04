@@ -1,0 +1,9 @@
+{
+    "git.ignoreLimitWarning": true,
+    "triggerTaskOnSave.tasks": {
+        "Preprocess-Silent": [
+            "**/*.shps",
+            "**/*.ihps"
+        ]
+    }
+}

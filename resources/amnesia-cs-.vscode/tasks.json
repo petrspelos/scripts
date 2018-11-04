@@ -1,0 +1,22 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Preprocess",
+            "type": "shell",
+            "command": "C:\\dev\\tools\\AmnesiaPreprocessor\\AmnesiaPreprocessor.exe '-cs:${workspaceFolder}'",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "Preprocess-Silent",
+            "type": "shell",
+            "command": "C:\\dev\\tools\\AmnesiaPreprocessor\\AmnesiaPreprocessor.exe '-cs:${workspaceFolder}'",
+            "presentation": {
+                "reveal": "never",
+            }
+        }
+    ]
+}
