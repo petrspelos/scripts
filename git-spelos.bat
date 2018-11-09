@@ -1,4 +1,4 @@
 @echo off
-git config --global user.name "Petr Sedláček"
-git config --global user.email petrspelos@gmail.com
-echo "Using Git as Spelos"
+git config --global user.name "petrspelos"
+git config --global user.email petr.spelos@gmail.com
+echo Using Git as Spelos
