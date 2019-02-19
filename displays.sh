@@ -1,11 +1,13 @@
-#!/bin/sh
+#!/bin/bash
 
 # 
 #   This script is used to select one of my
 #   screen setups. It uses arandr, and dmenu
 #
 
-choices="Laptop\nVGA\nOther"
+choices="Laptop
+VGA
+Other"
 chosen=$(echo "$choices" | dmenu -i)
 case "$chosen" in
     Laptop) /home/peter/Repos/scripts/.screenlayout/laptop-only.sh ;;
